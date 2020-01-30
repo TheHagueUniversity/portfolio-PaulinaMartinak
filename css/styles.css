@@ -23,7 +23,8 @@ body {
   background-image: url(./images/bodybackground_1.jpg);
   background-size: cover;
   background-position: top right;
-  color: #343434;
+  color: #483D8B
+;
   margin: 0;
   padding: 0;
  
@@ -34,7 +35,7 @@ img {
   width: 300px;
 }
 a {
-  color: #FFE66D;
+  color: #F7FFF7;
 }
 a:hover {
   text-decoration: none;
