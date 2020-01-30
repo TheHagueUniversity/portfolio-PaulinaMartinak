@@ -27,12 +27,14 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-weight: 20;
 }
+
 .container{
     width: 80%;
-      margin: 0 auto;
+    margin: 0 auto;
 }
+
 header {
-  background: #0000CD;
+    background: #0000CD;
 }
 
 header::after {
@@ -46,7 +48,7 @@ header::after {
     padding: 10px 0;
 }
   
-nav{
+nav {
     float: right;
 }
     
@@ -56,12 +58,12 @@ nav ul{
     list-style: none;
 }
 
-nav li{
+nav li {
     display: inline-block;
     margin-left: 20px;
     padding-top: 25px;
-    position: relative;
     
+    position: relative;  
 }
 
 nav a{
@@ -72,14 +74,14 @@ nav a{
 }
 
 nav a:hover {
-    color: cyan;
+    color: palevioletred;
 }
 
 nav a::before {
     content: '';
     display: block;
     height: 5px;
-    background color: black;  
+    background-color: paleturquoise;  
     
     position: absolute;
     top:0;
