@@ -58,7 +58,7 @@ nav ul{
     list-style: none;
 }
 
-nav li {
+.nav-list{
     display: inline-block;
     margin-left: 20px;
     padding: 25px 25px 0 25px;
@@ -213,14 +213,20 @@ footer {
   display: none;
   position: absolute;
   background-color: #0000CD;
-  min-width: 60px;
+  width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 10px 6px;
-  width: 10 px;
-  height: 5 px;
+  padding: 25px 15px;
+  height: 250px;
   z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.drop-list{
+    display: inline-block;
+    position: relative;
+    padding: 25px 0 0 0;\
+
 }
