@@ -26,7 +26,7 @@ body {
   background-size: cover;
   background-position: top right;
   margin: 0;
-  font-family:'Vast Shadow', cursive;
+  font-family:'Share Tech', sans-serif;
   font-weight: 20;
 }
 
@@ -108,7 +108,7 @@ h2 {
   font-size: 30 px;
 }
 h1, h2 {
-  font-family: 'Barrio', cursive;
+  font-family: 'Audiowide', cursive;
   font-weight: 500;
   margin: 0;
 }
