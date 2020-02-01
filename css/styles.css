@@ -149,9 +149,9 @@ h3 {
   background-image: url(./images/background_1.jpg);
   background-size: cover;
   background-position: top right;
-  backface-visibility: visible   
-  padding-left: 32px;
-  padding-right: 32px;
+  backface-visibility: visible;  
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 169px;
   height:150px;
 }
