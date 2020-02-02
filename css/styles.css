@@ -1,4 +1,4 @@
-*
+/*
 COLOR PALETTE
 https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #F7FFF7 - almost white
@@ -25,9 +25,11 @@ body {
   background-image: url(./images/bodybackground_1.jpg);
   background-size: cover;
   background-position: top right;
-  margin: 0;
+  margin: 5;
   font-family:'Share Tech', sans-serif;
+  font-size: 20px;
   font-weight: 20;
+ 
 }
 
 .grid-conatainer{display: grid;
@@ -101,14 +103,14 @@ nav a:hover::before {
 }
 
 h1 {
-  font-size: 20px;
-  font-family:'Audiowide', cursive; ;
+  font-size: 15px;
+  font-family: 'Audiowide', cursive;
 }
 h2 {
-  font-size: 40px;
-  line-height: 2;
-  font-family:'Audiowide', cursive;
-  font-weight: 500; 
+  font-size: 25px;
+  line-height: 30px;
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: 200; 
   margin:0;
 }
 .section{
@@ -150,10 +152,9 @@ h3 {
   background-size: cover;
   background-position: top right;
   backface-visibility: visible;  
-  padding-left: 10px;
-  padding-right: 10px;
   margin: 169px;
-  height:150px;
+  margin-bottom: 20px;
+  height:300px;
 }
 .home a {
   color: #2F3061;
@@ -228,6 +229,7 @@ footer {
 
 /* Inspiration Image
 ------------------------------------*/
+
 .step-into {
 background:url(./images/stepintomyworld.jpg);
 }
