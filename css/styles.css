@@ -26,8 +26,9 @@ body {
   background-size: cover;
   background-position: top right;
   margin: 5;
+
   font-family:'Share Tech', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 20;
  
 }
@@ -105,12 +106,13 @@ nav a:hover::before {
 h1 {
   font-size: 15px;
   font-family: 'Audiowide', cursive;
+  line-height: 1;
 }
 h2 {
   font-size: 25px;
-  line-height: 30px;
+  line-height: 100px;
   font-family: 'Share Tech Mono', monospace;
-  font-weight: 200; 
+  font-weight: 300; 
   margin:0;
 }
 .section{
@@ -147,7 +149,6 @@ h3 {
 /* Home Page
 ------------------------------------*/
 .home {
-   
   background-image: url(./images/background_1.jpg);
   background-size: cover;
   background-position: top right;
@@ -229,19 +230,63 @@ footer {
 
 /* Inspiration Image
 ------------------------------------*/
+/*
 
-.step-into {
-background:url(./images/stepintomyworld.jpg);
+.Text1{
+    grid-column-start:repeat(2,1fr);
+    grid-column-end:40px 200px 40px;
 }
 
-/* Education
-------------------------------------*/
-.step-into {
-  background-image: url(../images/walkinginto.jpg);
-  background-size: cover;
-  background-position: top right;
-  padding-bottom: 100px;
+.Image1{}
+
+.Text2{}
+
+.Image2{}
+
+.Text3{}
+
+.Image3{}
+*/
+
+.Text1{
+  grid-row:1;
+  grid-template-columns:auto;
 }
-.step-into p {
-  width: 60%;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+/* Footer hyperlinks visual */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* Cursor */
+<style>
+* { cursor: url(./images/cursor.cur),default;}
+</style>
