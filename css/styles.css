@@ -338,6 +338,29 @@ p.round3 {
   border-radius: 8px;
 }
 
+
+.grid-container6 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #A1C6D7 ;
+  padding: 10px;
+  border: 3px solid #0000CD;
+  border-radius: 8px;
+}
+
+.grid-container6 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+p.round6 {
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
 /* UX-Design
 ------------------------------------*/
 .float-img5{
