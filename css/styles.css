@@ -239,9 +239,33 @@ footer {
     padding: 0px; 
     width: 350px;
     height: auto;  
-
 }
 
+.float-img1{
+    float:right;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border: solid #FF69B4 5px;
+    margin-top: 20;
+    padding: 0px;
+    border-radius: 25px;
+    padding: 0px; 
+    width: 400px;
+    height: auto;  
+}
+
+.float-img2{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border: solid #FF69B4 5px;
+    margin-top: 20;
+    padding: 0px;
+    border-radius: 25px;
+    padding: 0px; 
+    width: 300px;
+    height: auto;  
+}
 
 .grid-container2 {
   display: grid;
