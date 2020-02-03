@@ -1,4 +1,4 @@
-/*
+
 COLOR PALETTE
 https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #F7FFF7 - almost white
@@ -6,7 +6,7 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #2F3061 - blue dark
 #FFE66D - yellow
 #A1C6D7 - blue light
-*/
+
 
 
 /* Global styles
@@ -258,7 +258,7 @@ footer {
     float:left;
     margin-right: 10px;
     margin-bottom: 0px;
-    border: solid #FF69B4 5px;
+    border: solid #92ddf0 5px;
     margin-top: 20;
     padding: 0px;
     border-radius: 25px;
@@ -267,11 +267,38 @@ footer {
     height: auto;  
 }
 
+
+.float-img3{
+    float:right;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border: solid #A1C6D7  5px;
+    margin-top: 20;
+    padding: 0px;
+    border-radius: 30px;
+    padding: 0px; 
+    width: 300px;
+    height: auto;  
+}
+
+.float-img4{
+    float:right;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border: solid #A1C6D7  5px;
+    margin-top: 20;
+    padding: 0px;
+    border-radius: 30px;
+    padding: 0px; 
+    width: 300px;
+    height: auto;  
+}
+
 .grid-container2 {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto ;
   grid-gap: 10px;
-  background-color: #FF69B4 ;
+  background-color: #A1C6D7 ;
   padding: 10px;
   border: 3px solid #0000CD;
   border-radius: 8px;
@@ -288,6 +315,54 @@ p.round2 {
   border: 2px solid red;
   border-radius: 8px;
 }
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #FF69B4 ;
+  padding: 10px;
+  border: 3px solid #0000CD;
+  border-radius: 8px;
+}
+
+.grid-container3 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+p.round3 {
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
+/* UX-Design
+------------------------------------*/
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #f5f7f7 ;
+  padding: 5px;
+  border: 3px solid #0000CD;
+  border-radius: 8px;
+}
+
+.grid-container4 > div {
+  background-color: none;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+p.round4 {
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
 
 /* Inspiration Image
 ------------------------------------*/
