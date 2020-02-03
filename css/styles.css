@@ -258,7 +258,7 @@ footer {
     float:left;
     margin-right: 10px;
     margin-bottom: 0px;
-    border: solid #92ddf0 5px;
+    border: solid #FF69B4 5px;
     margin-top: 20;
     padding: 0px;
     border-radius: 25px;
@@ -340,14 +340,25 @@ p.round3 {
 
 /* UX-Design
 ------------------------------------*/
-
+.float-img5{
+    float:right;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border: solid #A1C6D7 5px;
+    margin-top: 20;
+    padding: 0px;
+    border-radius: 30px;
+    padding: 0px; 
+    width: 300px;
+    height: auto;  
+}
 .grid-container4 {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
-  background-color: #f5f7f7 ;
+  background-color: #77777;
   padding: 5px;
-  border: 3px solid #0000CD;
+  border: 5px solid #0000CD;
   border-radius: 8px;
 }
 
@@ -366,28 +377,6 @@ p.round4 {
 
 /* Inspiration Image
 ------------------------------------*/
-/*
-
-.Text1{
-    grid-column-start:repeat(2,1fr);
-    grid-column-end:40px 200px 40px;
-}
-
-.Image1{}
-
-.Text2{}
-
-.Image2{}
-
-.Text3{}
-
-.Image3{}
-*/
-
-.Text1{
-  grid-row:1;
-  grid-template-columns:auto;
-}
 
 .grid-container {
   display: grid;
