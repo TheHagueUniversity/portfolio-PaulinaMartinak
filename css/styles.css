@@ -155,7 +155,7 @@ h3 {
   backface-visibility: visible;  
   margin: 169px;
   margin-bottom: 20px;
-  height:300px;
+  height:350px;
 }
 .home a {
   color: #2F3061;
@@ -227,6 +227,20 @@ footer {
     border: 5px solid #0000CD;
 }
 
+/* About Me page
+------------------------------------*/
+.float-img{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border: solid #FF69B4 5px;
+    padding: 1px;
+    border-radius: 25px;
+    padding: 0px; 
+    width: 350px;
+    height: auto;  
+
+}
 
 /* Inspiration Image
 ------------------------------------*/
@@ -286,7 +300,3 @@ a:active {
   text-decoration: underline;
 }
 
-/* Cursor */
-<style>
-* { cursor: url(./images/cursor.cur),default;}
-</style>
