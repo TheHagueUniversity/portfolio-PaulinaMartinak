@@ -342,7 +342,7 @@ p.round3 {
 .grid-container6 {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto
   grid-gap: 10px;
   background-color: #A1C6D7 ;
   padding: 10px;
@@ -406,7 +406,7 @@ p.round4 {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #0000CD;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -503,3 +503,28 @@ a:active {
   text-decoration: underline;
 }
 
+/*---- contact page-----*/
+
+
+.grid-container7 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #A1C6D7 ;
+  padding: 10px;
+  border: 3px solid #0000CD;
+  border-radius: 8px;
+}
+
+.grid-container7 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+p.round7 {
+  border: 2px solid red;
+  border-radius: 8px;
+}
