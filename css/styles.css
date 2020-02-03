@@ -126,7 +126,7 @@ h2 {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 h3 {
   margin-bottom: 0;
@@ -234,12 +234,35 @@ footer {
     margin-right: 10px;
     margin-bottom: 0px;
     border: solid #FF69B4 5px;
-    padding: 1px;
+    padding: 0px;
     border-radius: 25px;
     padding: 0px; 
     width: 350px;
     height: auto;  
 
+}
+
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #FF69B4 ;
+  padding: 10px;
+  border: 3px solid #0000CD;
+  border-radius: 8px;
+}
+
+.grid-container2 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+p.round2 {
+  border: 2px solid red;
+  border-radius: 8px;
 }
 
 /* Inspiration Image
