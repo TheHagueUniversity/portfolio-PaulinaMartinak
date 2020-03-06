@@ -149,7 +149,7 @@ h3 {
 /* Home Page
 ------------------------------------*/
 .home {
-  background-image: url(./images/background_1.jpg);
+  background-color: #FFFFFF;
   background-size: cover;
   background-position: top right;
   backface-visibility: visible;  
@@ -164,6 +164,7 @@ h3 {
   color: #F7FFF7;
   background: #FFC0CB;
   text-decoration: none;
+  text-align: center
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
@@ -206,8 +207,8 @@ h3 {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #FFC0CB;
-  color: #7777;  
+  background: #0000CD;
+  color: 	#FFFFFF;  
   text-align: center;
   padding: 10 px
 
