@@ -1,12 +1,8 @@
 
 COLOR PALETTE
 https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-#F7FFF7 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#A1C6D7 - blue light
-
+#A1C6D7 - light blue
+#0000CD - dark blue
 
 
 /* Global styles
@@ -221,10 +217,10 @@ h3 {
   display: none;
   position: absolute;
   background-color: #0000CD;
-  width: 100px;
+  width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 30px 30px;
-  height: 250px;
+  height: 300px;
   z-index: 1;
 }
 
@@ -236,12 +232,26 @@ h3 {
 
 .drop-list{
     display: inline-block;
+    position: relative;
     padding: 25px 25px 25px 0px;
 }
 
 
 -------------
 
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0000CD;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 /* Contact Info
 ------------------------------------*/
 footer {
