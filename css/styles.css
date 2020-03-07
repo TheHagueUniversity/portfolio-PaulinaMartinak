@@ -3,6 +3,7 @@ COLOR PALETTE
 https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #A1C6D7 - light blue
 #0000CD - dark blue
+#0909fb - logo blue
 
 
 /* Global styles
@@ -40,7 +41,7 @@ body {
 }
 
 header {
-    background: #0000CD;
+    background: #0909fb;
 }
 
 header::after {
@@ -85,7 +86,7 @@ nav a{
     content: '';
     display: block;
     height: 5px;
-    background-color: paleturquoise;  
+    background-color: #a9e7f9;  
     position: absolute;
     top:0;
     width: 0%;
@@ -216,7 +217,7 @@ h3 {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #0000CD;
+  background-color: #0909fb;
   width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 30px 30px;
@@ -258,7 +259,7 @@ footer {
   background: #0000CD;
   color: 	  #FFFFFF;  
   text-align: center;
-  padding: 10 px
+  padding: 10 px;
 
 }
 .contact-list {
@@ -276,12 +277,11 @@ footer {
 ------------------------------------*/
 .float-img{
     float:left;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    border: solid #FF69B4 5px;
+    margin-right: 30px;
+    margin-bottom: px;
+    border: solid #A1C6D7 5px;
     padding: 0px;
-    border-radius: 25px;
-    padding: 0px; 
+    border-radius: 30px; 
     width: 350px;
     height: auto;  
 }
@@ -290,10 +290,10 @@ footer {
     float:right;
     margin-right: 10px;
     margin-bottom: 0px;
-    border: solid #FF69B4 5px;
+    border: solid #A1C6D7 5px;
     margin-top: 20;
     padding: 0px;
-    border-radius: 25px;
+    border-radius: 30px;
     padding: 0px; 
     width: 400px;
     height: auto;  
@@ -303,7 +303,7 @@ footer {
     float:left;
     margin-right: 10px;
     margin-bottom: 0px;
-    border: solid #FF69B4 5px;
+    border: solid #A1C6D7 5px;
     margin-top: 20;
     padding: 0px;
     border-radius: 25px;
@@ -365,7 +365,7 @@ p.round2 {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   grid-gap: 10px;
-  background-color: #FF69B4 ;
+  background-color: #A1C6D7 ;
   padding: 10px;
   border: 3px solid #0000CD;
   border-radius: 8px;
@@ -403,7 +403,7 @@ p.round3 {
 }
 
 p.round6 {
-  border: 2px solid red;
+  border: 2px solid #A1C6D7;
   border-radius: 8px;
 }
 
@@ -425,7 +425,7 @@ p.round6 {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
-  background-color: #f77777;
+  background-color: none;
   padding: 5px;
   border: 5px solid #0000CD;
   border-radius: 8px;
@@ -439,7 +439,7 @@ p.round6 {
 }
 
 p.round4 {
-  border: 2px solid red;
+  border: 2px solid #A1C6D7;
   border-radius: 8px;
 }
 
@@ -448,60 +448,13 @@ p.round4 {
   padding: 15px;
   text-align: center;
 }
-/* Inspiration Image:*
-div.gallery {
-  border: 1px solid #ccc;
-}
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 50px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 200px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-------------------------------------*/
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color: ##A1C6D7;
   padding: 10px;
 }
 
@@ -552,6 +505,6 @@ a:active {
 }
 
 p.round7 {
-  border: 2px solid red;
+  border: 2px solid #A1C6D7;
   border-radius: 8px;
 }
