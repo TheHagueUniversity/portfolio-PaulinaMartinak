@@ -1,37 +1,38 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+    <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> Paulina Martina UX Researcher, Material Educator, Fashion Design</title>
       <link href="https://fonts.googleapis.com/css?family=Audiowide|Megrim|Orbitron|Righteous|Share+Tech|Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+      <link rel="stylesheet" href="css/styles.css">
+    </head>
   <body>
       <main>
       <!-- ***************  Navigation/Header Bar  ************* -->
-   <header>
+       <header>
             <span class="container">
                 <img src="./css/images/MouseHDL.png" alt="MouseHDL" class="MouseHDL">
                    <nav>
-                    <ol>
-                        <li class = "nav-list"><a class= "highlight" >Home</a></li>
-                        <li class = "nav-list"><a class= "highlight" href=aboutme.html >About Me</a></li>
-                        <li class = "nav-list"><a class= "highlight" href=UXdesign.html>UX Design</a></li>               
-                            <span class="dropdown">
+                    <ul>
+                        <li class = "nav-list"><a class= "highlight">Home</a></li>
+                        <li class = "nav-list"><a class= "highlight" href="aboutme.html">About Me</a></li>
+                        <li class = "nav-list"><a class= "highlight" href="UX-design.html">UX Design</a></li>               
+                            <div class="dropdown">
                                      <span class="dropbtn"><li class = "nav-list"><a class= "highlight" href="FashTech.html" >FashTech</a></li> </span>
-                                    <span class="dropdown-content">
-                                        <ol>
-                                    <li class= "drop-list"><a href= "FashTech.html#iAMYOU">Super Nova</a></li> <br>
-                                    <li class= "drop-list"><a href= "FashTech.html#Eyeofthe">Hearth</a></li> <br>
-                                    <li class= "drop-list"><a href= "FashTech#Frankenmeup">I am You</a></li><br>
-                                        </ol>
-                                    </span>
+                                    <div class="dropdown-content">
+                                        <ul>
+                                    <li class= "drop-list"><a href= "FashTech.html#SuperNOVA">Super Nova</a></li> <br>
+                                    <li class= "drop-list"><a href= "FashTech.html#Hearth">Hearth</a></li> <br>
+                                    <li class= "drop-list"><a href= "FashTech#IamYOU">I am You</a></li><br>
+                                        </ul>
+                                </div>
                              
-                             </span>
-                           <li class = "nav-list"><a class= "highlight" href= "mailto:email@example.com">HearthDesignlab@gmail.com</a></li>
+                             </div>
+                           <li class = "nav-list"><a class= "highlight" href= "MixedMedia.html">Mixed-Media</a></li>
                         <li class = "nav-list"><a class= "highlight"href= Contact%20.html>Contact</a></li>
-                    </ol>
+                    </ul>
                 </nav>
             </span>
         </header>
@@ -39,10 +40,22 @@
       <div class="content-wrap">
         <section class="home">
           <h1> Hi, I am Paulina Martina and I am a time traveller...</h1>
-            <p> A UX-researcher with a background in retail and design, my strength lies in reasearching opportunities by conducting material development to predict and react to ongoing cultural shifts within consumer behavior.</p> 
+            <p class="something-cool"> A UX-researcher with a background in retail and design, my strength lies in reasearching opportunities by conducting material development to predict and react to ongoing cultural shifts within consumer behavior.</p> 
             <p>I use data to learn about past immersive technologies to analyse current trends leading to futures opportunities. The reason for this is that I use UX to connect the past,future and present of design.</p> <br>
          </section>
       </div>
+<!-- ************ Home Page/Videos about me  ************** -->
+        <section class="section video">
+            <video class="video" width = "25%" height= "auto" autoplay loop>
+                <source src="css/images/meinspace1.mp4" type="video/mp4">
+            </video>
+               <video class="video" width = "25%" height= "auto" autoplay loop>
+                <source src="css/images/Meintime.mp4" type="video/mp4">
+            </video>
+               <video class="video" width = "25%" height= "auto" autoplay loop>
+                <source src="css/images/megrabbing.mp4" type="video/mp4">
+            </video>
+      </section>
 
        
       <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
@@ -53,7 +66,11 @@
           <!-- Social media and contact links. Add or remove any networks. -->
                  <ul class="contact-list"> 
                    <li ><a href="http://www.hearthdesignlab.com/" target="_blank">hearthdesignlab.com</a></li>
-                   <li><a href="https://nl.linkedin.com/in/pmmartina" target="_blank">LinkedIn</a></li>
+                   <li>
+                       <a href="https://nl.linkedin.com/in/pmmartina" target="_blank">
+                            <img src="./css/images/instaIcon.png" alt="LinkedIn">LinkedIn
+                       </a>
+                     </li>
                  </ul>
               </div>
           </footer>

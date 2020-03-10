@@ -1,9 +1,9 @@
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
 
-COLOR PALETTE
-https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-#A1C6D7 - light blue
-#0000CD - dark blue
-#0909fb - logo blue
 
 
 /* Global styles
@@ -22,7 +22,7 @@ body {
   background-image: url(./images/bodybackground_1.jpg);
   background-size: cover;
   background-position: top right;
-  margin:5;
+  margin: 5;
 
   font-family:'Share Tech', sans-serif;
   font-size: 25px;
@@ -34,13 +34,14 @@ body {
     
 }
 .container{
-    display: flex;
+  display: flex;
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
 }
 
 header {
+   
     background: #0909fb;
 }
 
@@ -52,16 +53,17 @@ header::after {
 
 .MouseHDL {  
     float: left;
-    padding: 15px 0;
+    padding: 10px 0;
 }
   
 nav {
-    float: right;
+    float: center;
 }
     
 nav ul{
     margin: 0;
     padding: 0;
+    
     list-style: none;
 }
 
@@ -69,8 +71,6 @@ nav ul{
     display: inline-block;
     margin-left: 20px;
     padding: 25px 25px 0 25px;
-    padding-left: 30px;
-    padding-right: 30px;
     position: relative;  
 }
 
@@ -81,19 +81,23 @@ nav a{
     font-size: 14px;
 }
 
+nav a:hover {
+    color: palevioletred;
+}
 
-.highlight:before {
+.highlight::before {
     content: '';
     display: block;
     height: 5px;
-    background-color: #a9e7f9;  
+    background-color: paleturquoise;  
+    
     position: absolute;
     top:0;
     width: 0%;
     transition: all ease-in-out 250ms;
 }
 
-nav a:hover:before {
+nav a:hover::before {
     width: 100%;
 }
 
@@ -102,67 +106,10 @@ h1 {
   font-family: 'Audiowide', cursive;
   line-height: 1,05em;
   font-weight: 300; 
+  padding-bottom: 15px;
 
 }
-h3 {
-  font-size: 25px;
-  line-height: 100px;
-  font-family: 'Share Tech Mono', monospace;
-  font-weight: 300; 
-  margin:0;
-}
-.section{
-  display: flex;
-  justify-content: center;
-}
 
-.video-1{
-    float:Left;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    border: solid #A1C6D7 5px;
-    margin-top: 20;
-    padding: 0px;
-    border-radius: 30px;
-    padding: 0px; 
-    width: 300px;
-    height: auto;  
-}
-
-.video-2{
-    margin-right: 10px;
-    margin-bottom: 0px;
-    border: solid #A1C6D7 5px;
-    margin-top: 20;
-    padding-left: 50;
-    padding: 50px;
-    border-radius: 30px;
-    padding: 0px; 
-    width: 300px;
-    height: auto;  
-}
-
-.video-3{
-    
-    margin-right: 10px;
-    margin-bottom: 0px;
-    border: solid #A1C6D7 5px;
-    margin-top: 20;
-    padding: 0px;
-    border-radius: 30px;
-    padding: 0px; 
-    width: 300px;
-    height: auto;  
-}
-.video{
-  padding: 20px;
-}
-.content-wrap {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 50px 0;
-}
 h2 {
   margin-bottom: 0;
 }
@@ -179,28 +126,58 @@ h2 {
   border-bottom: none;
 }
 
+h3 {
+  font-size: 25px;
+  line-height: 100px;
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: 300; 
+  margin:0;
+}
+.section{
+  display: flex;
+  justify-content: center;
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+}
+.video{
+  padding: 20px;
+}
+.content-wrap {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
 
 /* Home Page
 ------------------------------------*/
 .home {
-  background-size: cover;
-  background-position: top right;
+  background-image: url(./images/background_1.jpg);
+  
+  background-position: center;
   backface-visibility: visible;  
-  margin: 20px;
+  margin: 169px;
   margin-bottom: 20px;
-  height:1000px;
+  height:350px;
+  width: 900px
 }
-
+.home a {
+  color: #2F3061;
+}
 .home .btn {
-  color: #FFFFFF;
- 
+  color: #F7FFF7;
+  background: #FFC0CB;
   text-decoration: none;
-  text-align: center
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
 }
-.home .btn:hover 
+.home .btn:hover {
+  background: rgba(47, 48, 97, 80%);
 }
 .home-item {
   overflow: hidden;
@@ -218,48 +195,31 @@ h2 {
   display: none;
   position: absolute;
   background-color: #0909fb;
-  width: 160px;
+  width: 140px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 30px 30px;
-  height: 300px;
+  padding: 0px 15px;
+  height: 200px;
   z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-  padding-left: 30px;
-  padding-right:  30px;
+  background-color: #0909fb;
 }
 
 .drop-list{
     display: inline-block;
     position: relative;
-    padding: 25px 25px 25px 0px;
-}
-
-
--------------
-
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #0000CD;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
+    padding: 25px 0 0 0;\
 }
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #0000CD;
+  background: #0909fb;
   color: 	  #FFFFFF;  
   text-align: center;
   padding: 10 px;
+
 
 }
 .contact-list {
@@ -271,17 +231,22 @@ footer {
   display: inline-block;
 }
 
-
+.parent{
+    width: 600px;
+    height:400px;
+    border: 5px solid #0909fb;
+}
 
 /* About Me page
 ------------------------------------*/
 .float-img{
     float:left;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    border: solid #A1C6D7 5px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border: solid #FF69B4 5px;
     padding: 0px;
-    border-radius: 30px; 
+    border-radius: 25px;
+    padding: 0px; 
     width: 350px;
     height: auto;  
 }
@@ -290,10 +255,10 @@ footer {
     float:right;
     margin-right: 10px;
     margin-bottom: 0px;
-    border: solid #A1C6D7 5px;
+    border: solid #FF69B4 5px;
     margin-top: 20;
     padding: 0px;
-    border-radius: 30px;
+    border-radius: 25px;
     padding: 0px; 
     width: 400px;
     height: auto;  
@@ -303,7 +268,7 @@ footer {
     float:left;
     margin-right: 10px;
     margin-bottom: 0px;
-    border: solid #A1C6D7 5px;
+    border: solid #FF69B4 5px;
     margin-top: 20;
     padding: 0px;
     border-radius: 25px;
@@ -344,6 +309,7 @@ footer {
   grid-template-columns: auto ;
   grid-gap: 10px;
   background-color: #A1C6D7 ;
+  padding: 10px;
   border: 3px solid #0000CD;
   border-radius: 8px;
 }
@@ -364,7 +330,7 @@ p.round2 {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   grid-gap: 10px;
-  background-color: #A1C6D7 ;
+  background-color: #FF69B4 ;
   padding: 10px;
   border: 3px solid #0000CD;
   border-radius: 8px;
@@ -390,7 +356,7 @@ p.round3 {
   grid-gap: 10px;
   background-color: #A1C6D7 ;
   padding: 10px;
-  border: 3px solid #0000CD;
+  border: 3px solid #0909fb;
   border-radius: 8px;
 }
 
@@ -402,7 +368,7 @@ p.round3 {
 }
 
 p.round6 {
-  border: 2px solid #A1C6D7;
+  border: 2px solid red;
   border-radius: 8px;
 }
 
@@ -424,7 +390,7 @@ p.round6 {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
-  background-color: none;
+  background-color: #77777;
   padding: 5px;
   border: 5px solid #0000CD;
   border-radius: 8px;
@@ -438,22 +404,88 @@ p.round6 {
 }
 
 p.round4 {
-  border: 2px solid #A1C6D7;
+  border: 2px solid red;
   border-radius: 8px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0909fb;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 .desc {
   padding: 15px;
   text-align: center;
 }
+/* Inspiration Image:*/
 
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 50px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+------------------------------------*/
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 10px;
-  background-color: ##A1C6D7;
+  background-color: #2196F3;
   padding: 10px;
 }
 
@@ -492,7 +524,7 @@ a:active {
   grid-gap: 10px;
   background-color: #A1C6D7 ;
   padding: 10px;
-  border: 3px solid #0000CD;
+  border: 3px solid #0909fb;
   border-radius: 8px;
 }
 
@@ -504,6 +536,6 @@ a:active {
 }
 
 p.round7 {
-  border: 2px solid #A1C6D7;
+  border: 2px solid red;
   border-radius: 8px;
 }
