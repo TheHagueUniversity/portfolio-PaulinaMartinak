@@ -119,10 +119,10 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
-  line-height: 100px;
+  font-size: 1em;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300; 
+  font-weight: 600; 
+  color: #0909fb;
   margin:0;
 }
 .section{
@@ -135,7 +135,7 @@ h3 {
     float:Left;
     margin-right: 10px;
     margin-bottom: 0px;
-    border: solid #A1C6D7 5px;
+    border: solid #A1C6D7 50px;
     margin-top: 20;
     padding: 0px;
     border-radius: 30px;
@@ -296,8 +296,6 @@ a:active {
   background-size: cover;
   backface-visibility: none;  
   padding-top: 15px;
-  margin: 20px;
-  margin-bottom: 20px;
   max-width: 1079px;
   text-align: center;
 }
@@ -307,12 +305,11 @@ a:active {
     margin-right: 10px;
     margin-bottom: 0px;
     border: solid #FF69B4 5px;
-    margin-top: 20;
-    padding: 0px;
+    margin-top: 20px;
     border-radius: 25px;
     padding: 0px; 
     width: 400px;
-    height: auto;  
+    height: 300px;  
 }
 
 .float-img2{
@@ -320,39 +317,42 @@ a:active {
     margin-right: 10px;
     margin-bottom: 0px;
     border: solid #FF69B4 5px;
-    margin-top: 20;
+    margin-top: 20px;
+    margin-right: 30px;
     padding: 0px;
     border-radius: 25px;
     padding: 0px; 
-    width: 300px;
-    height: auto;  
+    width: 400px;
+    height: 300px;  
 }
 
 
 .float-img3{
     float:right;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    border: solid #A1C6D7  5px;
-    margin-top: 20;
-    padding: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    border: solid #FF69B4  5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding left: 30px;
     border-radius: 30px;
     padding: 0px; 
-    width: 300px;
-    height: auto;  
+    width: 400px;
+    height: 300px;  
 }
 
 .float-img4{
     float:right;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    border: solid #A1C6D7  5px;
-    margin-top: 20;
+    margin-right: 0px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: solid #FF69B4  5px;
+    margin-top: 5px;
     padding: 0px;
     border-radius: 30px;
     padding: 0px; 
-    width: 300px;
-    height: auto;  
+    width: 400px;
+    height: 300px;  
 }
 
 .grid-container2 {
