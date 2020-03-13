@@ -102,10 +102,11 @@ h1 {
 }
 
 h2 {
+  font-size: 2em;
   margin-bottom: 0;
 }
 .item-details h2 + p {
-  font-style: italic;
+  font-style: oblique;
 }
 .item-details h2 ~ p {
   margin: 0;
@@ -120,7 +121,7 @@ h2 {
 h3 {
   font-size: 25px;
   line-height: 100px;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300; 
   margin:0;
 }
@@ -183,37 +184,23 @@ h3 {
 
 /* Home Page
 ------------------------------------*/
-/*background-image: url(./images/background_1.jpg);
+
 
 .home {
+  background-image: url(./images/background_1.jpg);
   background-size: cover;
   background-position:top right;
   backface-visibility: visible;  
-  margin: 222px;
+  padding-top: 15px;
+  margin: 20px;
+  margin-left: 222px;
   margin-bottom: 20px;
-  height:500px;
-  width: 1078px;
+  text-align: center;
+  height:180px;
+  width: 1079px;
 }
-/*.home a {
-  color: #2F3061;
-}*/
-/*.home .btn {
-  color: #F7FFF7;
-  background: #FFC0CB;
-  text-decoration: none;
-  padding: 8px;
-  borer-radius: 4px;
-  display: inline-block;
-}
-.home .btn:hover {
-  background: rgba(47, 48, 97, 80%);
-}
-.home-item {
-  overflow: hidden;
-}
-.home-item h3 {
-  margin-top: 0;
-}*/
+
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -302,6 +289,17 @@ a:active {
     padding: 0px; 
     width: 350px;
     height: auto;  
+}
+
+.MyTime {
+  background-image: url(./images/My-time-line.jpeg);
+  background-size: cover;
+  backface-visibility: none;  
+  padding-top: 15px;
+  margin: 20px;
+  margin-bottom: 20px;
+  max-width: 1079px;
+  text-align: center;
 }
 
 .float-img1{
