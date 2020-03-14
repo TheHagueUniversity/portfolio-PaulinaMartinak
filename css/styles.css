@@ -168,7 +168,7 @@ h3 {
     border-radius: 30px;
     padding: 0px; 
     width: 300px;
-    height: auto;  
+    height: auto;
 }
 
 .video{
@@ -435,24 +435,24 @@ p.round6 {
 ------------------------------------*/
 .float-img5{
     float:right;
-    margin-right: 10px;
+    margin-left: 30px;
     margin-bottom: 0px;
-    border: solid #A1C6D7 5px;
-    margin-top: 20;
-    padding: 0px;
-    border-radius: 30px;
-    padding: 0px; 
+    border: solid #0909fb 5px;
+    margin-top: 20px;
+    margin-right:30px;
+    margin-bottom: 30px;
+    border-radius: 30px; 
     width: 300px;
     height: auto;  
 }
 .grid-container4 {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
+  grid-template-columns: auto auto;
+  grid-auto-rows: auto auto auto auto
   background-color: #FFFFFF;  
   padding: 5px;
-  border: 5px solid #0000CD;
-  border-radius: 8px;
+  border: 5px solid #8FDFF6;
+  border-radius: 15px;
 }
 
 .grid-container4 > div {
@@ -463,8 +463,31 @@ p.round6 {
 }
 
 p.round4 {
-  border: 2px solid red;
-  border-radius: 8px;
+  border: 2px solid #8FDFF6;
+  border-radius: 15px;
+}
+
+/*-----*/
+.grid-container41 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-rows: auto auto auto auto
+  background-color: #FFFFFF;  
+  padding: 5px;
+  border: 5px solid #0909fb;
+  border-radius: 15px;
+}
+
+.grid-container41 > div {
+  background-color: none;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+p.round41 {
+  border: 2px solid #0909fb;
+  border-radius: 15px;
 }
 
 .dropdown {
