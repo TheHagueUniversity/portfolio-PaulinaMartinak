@@ -174,6 +174,16 @@ h3 {
 .video{
   padding: 20px;
 }
+.video4{
+  padding: 0px;
+  background-image:url(./images/background_1.jpg); 
+  width:1078 px;
+  border: 8px solid #0909fb;
+  border-radius: 25px;
+  padding-bottom: 0px;
+    
+}
+
 .content-wrap {
   max-width: 1078px;
   width: 100%;
@@ -522,12 +532,13 @@ div.desc {
 
 
 /*---- contact page-----*/
- .grid-container72 {
+
+.grid-container72 {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
   grid-gap: 10px;
-  background-color: #FFFFFF ;
+  
   background-image: url(./images/background_1.jpg);
   background-size: cover;
   background-position:top right;
@@ -538,7 +549,7 @@ div.desc {
 }
 
 .grid-container72 > div {
-  background-color: rgba(255, 255, 255, 0.8);
+
   text-align: left;
   padding: 0px 0;
   font-size: 30px;
@@ -548,6 +559,9 @@ p.round72 {
   border: 2px solid #0909fb;  
   border-radius: 8px;
 }
+
+/*----*/
+
 /*-----contact info------------*/
 .grid-container7 {
   display: grid;
@@ -624,7 +638,7 @@ p.round7 {
   background-color: #FFFFFF;  
   padding: 0 px;
   border: 10px solid  #8FDFF6;
-  border-radius: 5px;
+  border-radius: 5px; margin-bottom: 50px;
 }
 
 .grid-container 8 > div {
@@ -660,7 +674,7 @@ p.round8 {
   background-color: #FFFFFF;  
   padding: 0 px;
   border: 10px solid #0909fb;
-  border-radius: 5px;
+  border-radius: 5px; margin-bottom: 50px;
 }
 
 .grid-container 9 div {
@@ -698,6 +712,7 @@ p.round9 {
   padding: 0 px;
   border: 10px solid #8FDFF6;
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 
 .grid-container 10 div {
