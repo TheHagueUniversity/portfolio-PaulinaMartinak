@@ -575,11 +575,13 @@ p.round7 {
 }
 
 /*------FashTech*/
+
+/*------SuperNova*/
 .float-img8{
     float:left;
     margin-right: 10px;
-    margin-bottom: 20px;
-    border: solid  #A1C6D7 5px;
+    margin-bottom: 200px;
+    border: solid  #8FDFF6 5px;
     margin-top: 20;
     border-radius: 30px;
     width: 500px;
@@ -590,44 +592,94 @@ p.round7 {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto;
-  grid-gap: 10px;
+  grid-gap: 0px;
   background-color: #FFFFFF;  
-  padding: 5px;
-  border: 5px solid #0000CD;
-  border-radius: 8px;
+  padding: 0 px;
+  border: 10px solid  #8FDFF6;
+  border-radius: 5px;
 }
 
 .grid-container 8 > div {
   background-color: none;
   text-align: center;
-  padding: 20px 0;
+  padding: 0px;
   font-size: 30px;
 }
 
 p.round8 {
-  border:  #0909fb;
-  border-radius: 8px;
+  border: #8FDFF6;
+  border-radius: 25px;
+}
+
+/*------Hearth */
+
+.float-img 9{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: solid  #0909fb 5px;
+    margin-top: 20;
+    border-radius: 30px;
+    width: 500px;
+    height: auto;  
 }
 
 .grid-container9 div {
   display: grid;
-  grid-auto-columns: auto;
-  grid-template-columns: auto auto;
-  grid-gap: 10px;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-gap: 0px;
   background-color: #FFFFFF;  
-  padding: 5px;
-  border: 5px solid #0000CD;
-  border-radius: 8px;
+  padding: 0 px;
+  border: 10px solid #0909fb;
+  border-radius: 5px;
 }
 
-.grid-container 9 > div {
+.grid-container 9 div {
   background-color: none;
   text-align: center;
-  padding: 20px 0;
+  padding: 0px 0;
   font-size: 30px;
 }
 
 p.round9 {
   border:  #0909fb;
-  border-radius: 8px;
+  border-radius: 25px;
+}
+
+/*------I am You */
+
+
+.float-img 10{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: solid #8FDFF6 5px;
+    margin-top: 20;
+    border-radius: 30px;
+    width: 500px;
+    height: auto;  
+}
+
+.grid-container10 div {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-gap: 0px;
+  background-color: #FFFFFF;  
+  padding: 0 px;
+  border: 10px solid #8FDFF6;
+  border-radius: 5px;
+}
+
+.grid-container 10 div {
+  background-color: none;
+  text-align: center;
+  padding: 0px 0;
+  font-size: 30px;
+}
+
+p.round10 {
+  border:  #8FDFF6;
+  border-radius: 25px;
 }
