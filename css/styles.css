@@ -295,9 +295,7 @@ a:active {
   background-image: url(./images/My-time-line.jpeg);
   background-size: cover;
   backface-visibility: none;  
-  padding-top: 15px;
   max-width: 1079px;
-  text-align: center;
 }
 
 .float-img1{
@@ -330,10 +328,10 @@ a:active {
 .float-img3{
     float:right;
     margin-right: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
     border: solid #FF69B4  5px;
     margin-top: 20px;
-    margin-bottom: 30px;
     padding left: 30px;
     border-radius: 30px;
     padding: 0px; 
@@ -343,14 +341,11 @@ a:active {
 
 .float-img4{
     float:right;
-    margin-right: 0px;
-    margin-left: 30px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
     border: solid #FF69B4  5px;
-    margin-top: 5px;
-    padding: 0px;
-    border-radius: 30px;
-    padding: 0px; 
+    border-radius: 25px;
     width: 400px;
     height: 300px;  
 }
@@ -506,30 +501,6 @@ div.desc {
   box-sizing: border-box;
 }
 
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 50px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 200px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 ------------------------------------*/
 
 .grid-container {
@@ -574,4 +545,30 @@ div.desc {
 p.round7 {
   border: 2px solid #FFFFFF;  
   border-radius: 8px;
+}
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 50px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
