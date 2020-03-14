@@ -502,7 +502,6 @@ div.desc {
   box-sizing: border-box;
 }
 
-------------------------------------*/
 
 .grid-container {
   display: grid;
@@ -520,11 +519,34 @@ div.desc {
 }
 
 
-/* Footer hyperlinks visual */
-
 /*---- contact page-----*/
+ .grid-container72 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  background-color: #FFFFFF ;
+  background-image: url(./images/background_1.jpg);
+  background-size: cover;
+  background-position:top right;
+  backface-visibility: visible;
+  padding: 10px;
+  border: 8px solid #0909fb;
+  border-radius: 8px;
+}
 
+.grid-container72 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 0px 0;
+  font-size: 30px;
+}
 
+p.round72 {
+  border: 2px solid #0909fb;  
+  border-radius: 8px;
+}
+/*-----contact info------------*/
 .grid-container7 {
   display: grid;
   grid-template-columns: auto;
