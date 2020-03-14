@@ -530,21 +530,25 @@ div.desc {
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto;
   grid-gap: 10px;
-  background-color: #A1C6D7 ;
+  background-color: #FFFFFF ;
+  background-image: url(./images/background_1.jpg);
+  background-size: cover;
+  background-position:top right;
+  backface-visibility: visible;
   padding: 10px;
-  border: 3px solid #0909fb;
+  border: 8px solid #0909fb;
   border-radius: 8px;
 }
 
 .grid-container7 > div {
   background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
+  text-align: left;
   padding: 20px 0;
   font-size: 30px;
 }
 
 p.round7 {
-  border: 2px solid #FFFFFF;  
+  border: 2px solid #0909fb;  
   border-radius: 8px;
 }
 
