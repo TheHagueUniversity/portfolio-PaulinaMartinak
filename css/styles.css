@@ -45,6 +45,7 @@ header::after {
 .MouseHDL {  
     float: left;
     padding: 12px 0;
+    
 }
   
 nav {
@@ -192,8 +193,9 @@ h3 {
   backface-visibility: visible;  
   padding-top: 15px;
   margin: 20px;
-  margin-left: 222px;
-  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
   text-align: center;
   height:180px;
   width: 1079px;
